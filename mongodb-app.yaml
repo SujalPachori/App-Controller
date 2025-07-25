@@ -1,0 +1,9 @@
+apiVersion: webapp.example.com/v1
+kind: App
+metadata:
+  name: mongodb-app
+  namespace: default
+spec:
+  image: mongo:7.0
+  replicas: 1
+  port: 27017 
