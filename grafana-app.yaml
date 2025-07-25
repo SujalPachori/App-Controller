@@ -1,0 +1,9 @@
+apiVersion: webapp.example.com/v1
+kind: App
+metadata:
+  name: grafana
+  namespace: default
+spec:
+  image: grafana/grafana:latest
+  replicas: 1
+  port: 3000 

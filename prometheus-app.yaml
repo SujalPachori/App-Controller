@@ -1,0 +1,9 @@
+apiVersion: webapp.example.com/v1
+kind: App
+metadata:
+  name: prometheus
+  namespace: default
+spec:
+  image: prom/prometheus:latest
+  replicas: 1
+  port: 9090 
